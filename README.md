@@ -1,2 +1,2 @@
 # golang
-go code
+go code learning repository 
