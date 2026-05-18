@@ -8,4 +8,12 @@ func main() {
 	fmt.Println(book)
 	book = "'The Count of Monte Cristo' , by Alexander Dumas"
 	fmt.Println(book)
+
+	var author = "Stephen King"
+	var title = "'mr Mercedes'"
+	fmt.Println(title, "by", author)
+
+	author = "J.K. Rowling"
+	title = "'Harry Potter and the Philosopher's Stone'"
+	fmt.Println(title, "by", author)
 }
