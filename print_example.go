@@ -10,10 +10,13 @@ func main() {
 	fmt.Println(book)
 
 	var author = "Stephen King"
-	var title = "'mr Mercedes'"
+	var title = "'mr Mercedes 📚'"
 	fmt.Println(title, "by", author)
 
 	author = "J.K. Rowling"
-	title = "'Harry Potter and the Philosopher's Stone'"
+	title = "'Harry Potter and the Philosopher's Stone 📖'"
 	fmt.Println(title, "by", author)
+
+	const name, age = "kim", 22
+	fmt.Printf("%s is %d years old. and the name type is %T and age type is %T \n", name, age, name, age)
 }
