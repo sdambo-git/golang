@@ -18,5 +18,7 @@ func main() {
 	fmt.Println(title, "by", author)
 
 	const name, age = "kim", 22
-	fmt.Printf("%s is %d years old. and the name type is %T and age type is %T \n", name, age, name, age)
+	fmt.Printf("%s is %d years old. and the name type is %T and age type is %T \n\n", name, age, name, age)
+	fmt.Println(`the big bear is done
+	by wood and the big bear is a book `)
 }
