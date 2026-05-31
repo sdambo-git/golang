@@ -11,14 +11,18 @@ func main() {
 
 	var author = "Stephen King"
 	var title = "'mr Mercedes 📚'"
-	fmt.Println(title, "by", author)
+	printBook(title, author)
 
 	author = "J.K. Rowling"
 	title = "'Harry Potter and the Philosopher's Stone 📖'"
-	fmt.Println(title, "by", author)
+	printBook(title, author)
 
 	const name, age = "kim", 22
 	fmt.Printf("%s is %d years old. and the name type is %T and age type is %T \n\n", name, age, name, age)
 	fmt.Println(`the big bear is done
 	by wood and the big bear is a book `)
+}
+
+func printBook(title, author string) {
+	fmt.Println(title, "by", author)
 }
